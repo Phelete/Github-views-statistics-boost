@@ -16,9 +16,11 @@
     
 ## Using
 ### Boost types
-#### Use D boost type for send Requests Direct.
-#### Use G boost type for send Requests via GitHub.
+<b>Use D boost type for send Requests Direct.</b>
+<b>Use G boost type for send Requests Direct.</b>
 ### Boost count
-#### Use plus before count number to add the number of views to the available views.
+<b>Use plus before count number to add the number of views to the available views.</b>
+# ⚠️ Disclaimer
+<b>This program is for educational purpose only and I am not responsible how the program is used.</b>
 ## Views count bage example for this repo
 ![Repo views](https://gpvc.arturio.dev/Github-views-statistics-boost)
