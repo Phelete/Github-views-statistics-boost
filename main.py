@@ -9,9 +9,11 @@ typ = input("Boost type(G,D): ")
 
 def remove_k(s:str):
     if "K" in s:
-        r=int(s.replace("K", ""))*1000
+        r=float(s.replace("K", ""))*1000
     elif "M" in s:
-        r=int(s.replace("M", ""))*1000000
+        r=float(s.replace("M", ""))*1000000
+    else:
+        r=float(s)
     return r
 
 if "+" in count:
@@ -19,7 +21,7 @@ if "+" in count:
 else:
     link = f"https://gpvc.arturio.dev/{nick}"
     current=bs4.BeautifulSoup(requests.get(link).text, 'html.parser').find("title").text.split(":")[1]
-    count = int(count) - remove_k(current)
+    count = int(count) - int(remove_k(current))
 if count > 0:
     print(f"Boosting: {count}")
 else:
