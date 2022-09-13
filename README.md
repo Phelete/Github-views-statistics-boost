@@ -17,7 +17,7 @@
 ## Using
 ### Boost types
 <b>Use D boost type for send Requests Direct.</b>
-<b>Use G boost type for send Requests Direct.</b>
+<b>Use G boost type for send Requests Via Github.</b>
 ### Boost count
 <b>Use plus before count number to add the number of views to the available views.</b>
 # ⚠️ Disclaimer
